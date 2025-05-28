@@ -64,7 +64,7 @@ function playerMove(playerMove) {
   document.querySelector(".js-result").innerHTML = `${result}`;
   document.querySelector(".js-move").innerHTML = ` You 
         <img class="move-img" src="images/${playerMove}-emoji.png" alt="">
-        <img class="move-img" src="images/${computerMove}-emoji.png" alt="">
+        <img class="move-img" src="images/${computerMove.toLowerCase()}-emoji.png" alt="">
         Computer `;
 }
 
