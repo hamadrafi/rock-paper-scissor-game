@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(14, 14, 14);
+  color: white;
+}
+.container {
+  border: 1px solid white;
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.title {
+  font-size: 30px;
+}
+.move-img {
+  height: 50px;
+}
+.move-btn {
+  background-color: transparent;
+  height: 120px;
+  width: 120px;
+  border: 3px solid white;
+  border-radius: 60px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.result-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.js-move {
+  margin-top: 40px;
+}
+.js-score {
+  margin-bottom: 30px;
+}
+.reset-btn{
+  background-color: white;
+  padding: 10px 15px;
+  color: black;
+  border: none;
+  font-size: 14px;
+}
+.reset-btn:hover{
+  cursor: pointer;
+}
+.ol-style {
+  padding: 20px;
+  font-size: larger;
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 5px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .move-btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .move-img {
+    height: 40px;
+  }
+  .result-title {
+    font-size: 20px;
+  }
+  .js-move {
+    margin-top: 20px;
+  }
+  .js-score {
+    margin-bottom: 20px;
+  }
+  .reset-btn,
+  .auto-play-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .ol-style {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .move-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .move-btn-container .move-btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .move-btn-container .move-btn:last-child {
+    margin-bottom: 0;
+  }
+}
